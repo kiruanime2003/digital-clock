@@ -1,0 +1,39 @@
+*, ::after, ::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #EBEBEB;
+  font-family: "Ubuntu", sans-serif;
+}
+
+div {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+div .time {
+  font-size: 70px;
+  margin: 0 15px;
+  color: #F45B69;
+}
+
+@media screen and (max-width: 686px) {
+  div .time {
+    font-size: 50px;
+    margin: 0 15px;
+  }
+}
+@media screen and (max-width: 488px) {
+  div .time {
+    font-size: 45px;
+    margin: 0 7px;
+  }
+}/*# sourceMappingURL=styles.css.map */
